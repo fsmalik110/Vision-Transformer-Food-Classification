@@ -1,0 +1,24 @@
+# env
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# datasets (very large)
+images/
+data/
+
+# trained artifacts (keep local OR upload via Hugging Face)
+models/
+*.pt
+*.bin
+*.safetensors
+
+# misc
+.DS_Store
+Thumbs.db
+# Gradio generated data / user flagged samples
+.gradio/
+
+# local test file
+_test.txt
