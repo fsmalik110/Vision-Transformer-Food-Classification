@@ -60,7 +60,7 @@ Transformers were originally designed for text (tokens). ViT applies the same id
 
 ## Project Structure
 
-```text
+```
 .
 ├─ assets/
 │  └─ README/
@@ -76,14 +76,14 @@ Transformers were originally designed for text (tokens). ViT applies the same id
 ├─ train.py
 ├─ app.py
 └─ requirements.txt
-
+```
 ---
 ## How to Run
 
 ### 1) Install Dependencies
 > Make sure you are in the project folder (where `requirements.txt` exists).
 
-```bash
+
 pip install -r requirements.txt
 ### 2) Train the Model
    python train.py
